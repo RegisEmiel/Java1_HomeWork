@@ -17,6 +17,17 @@ public class HomeWork_2 {
         System.out.println(Arrays.toString(a));
     }
 
+    public static void task2()
+    {
+        // Init array elements with step 3
+        int[] a = new int[8];
+
+        for (int i = 0; i < 8; i++)
+            a[i] = i * 3;
+
+        System.out.println(Arrays.toString(a));
+    }
+
     public static void main(String[] args) {
         System.out.println("Java 1 Homework 2");
 
@@ -25,5 +36,9 @@ public class HomeWork_2 {
         task1();
         System.out.println();
 
+        //task 2
+        System.out.println("Task 2");
+        task2();
+        System.out.println();
     }
 }
