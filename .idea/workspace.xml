@@ -104,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614890527159</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Task 3, 4, 5 complete commit">
+      <created>1615230345934</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1615230345934</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -112,6 +119,7 @@
     <MESSAGE value="Create Homework2 tasks commit" />
     <MESSAGE value="Task 1 complete commit" />
     <MESSAGE value="Task 2 complete commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 2 complete commit" />
+    <MESSAGE value="Task 3, 4, 5 complete commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 3, 4, 5 complete commit" />
   </component>
 </project>
