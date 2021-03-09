@@ -132,6 +132,63 @@ public class HomeWork_2 {
         System.out.println("Граница с одинаковой суммой элементов левой и правой части существует: " + borderExist(a3));
     }
 
+    public static int[] shiftArray(int[] a, int shift) {
+        int size = a.length;
+
+        int sign = shift < 0 ? -1 : 1;
+
+        shift = Math.abs(shift);
+
+        if (sign > 0) {
+            for (int i = 0; i < shift; i++) {
+                int temp = a[0];
+                a[0] = a[size - 1];
+
+                for (int j = 1; j < size - 1; j++) {
+                    a[size - j] = a[size - j - 1];
+                }
+
+                a[1] = temp;
+            }
+        }
+        else {
+            for (int i = 0; i < shift; i++) {
+                int temp = a[size - 1];
+                a[size - 1] = a[0];
+
+                for (int j = 1; j < size - 1; j++) {
+                    a[j - 1] = a[j];
+                }
+
+                a[size - 2] = temp;
+            }
+        }
+
+        return a;
+    }
+
+    public static void task7() {
+        int[] a = new int[] {1, 2, 3, 4, 5, 6, 7, 8};
+
+        System.out.print("Исходный массив: ");
+        System.out.println(Arrays.toString(a));
+
+        System.out.println("Сдвиг: 3");
+        System.out.println(Arrays.toString(shiftArray(a, 3)));
+
+        a = new int[] {1, 2, 3, 4, 5, 6, 7, 8};
+        System.out.println("Сдвиг: -3");
+        System.out.println(Arrays.toString(shiftArray(a, -3)));
+
+        a = new int[] {1, 2, 3, 4, 5, 6, 7, 8};
+        System.out.println("Сдвиг: 10");
+        System.out.println(Arrays.toString(shiftArray(a, 10)));
+
+        a = new int[] {1, 2, 3, 4, 5, 6, 7, 8};
+        System.out.println("Сдвиг: -10");
+        System.out.println(Arrays.toString(shiftArray(a, -10)));
+    }
+
     public static void main(String[] args) {
         System.out.println("Java 1 Homework 2");
 
@@ -163,6 +220,11 @@ public class HomeWork_2 {
         //task 6
         System.out.println("Задание 6");
         task6();
+        System.out.println();
+
+        //task 7
+        System.out.println("Задание 7");
+        task7();
         System.out.println();
     }
 }
