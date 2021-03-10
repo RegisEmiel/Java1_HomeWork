@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e65d2b2a-2b71-4bfd-9547-a044e58f99da" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HomeWork_2/HomeWork_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeWork_2/HomeWork_2.java" afterDir="false" />
-    </list>
+    <list default="true" id="e65d2b2a-2b71-4bfd-9547-a044e58f99da" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615238467503</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Task 7 complete commit">
+      <created>1615316683922</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615316683922</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -128,17 +132,7 @@
     <MESSAGE value="Task 2 complete commit" />
     <MESSAGE value="Task 3, 4, 5 complete commit" />
     <MESSAGE value="Task 6 complete commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 6 complete commit" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/HomeWork_2/HomeWork_2.java</url>
-          <line>135</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Task 7 complete commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 7 complete commit" />
   </component>
 </project>

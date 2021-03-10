@@ -4,51 +4,61 @@ import java.util.Arrays;
 import java.util.Random;
 
 public class HomeWork_2 {
+    // Изменить элементы массива на обратные
     public static void task1() {
-        // Изменить элементы массива на обратные
-
         int[] a = {1, 1, 0, 0, 1, 0, 1, 1, 0, 0};
 
         System.out.print("Исходный массив:\t");
         System.out.println(Arrays.toString(a));
 
         for (int i = 0; i < a.length; i++)
-            a[i] = a[i] ^ 1;
+            //a[i] = a[i] ^ 1; // По заданию требуется использовать ветвление
+            if (a[i] == 0)
+                a[i] = 1;
+            else
+                a[i] = 0;
 
         System.out.print("Измененный массив:\t");
         System.out.println(Arrays.toString(a));
     }
 
+    // Заполнить массив элементами с шагом 3
     public static void task2() {
-        // Заполнить массив элементами с шагом 3
-
         int[] a = new int[8];
 
         for (int i = 0; i < 8; i++)
             a[i] = i * 3;
 
+        System.out.print("Массив: ");
         System.out.println(Arrays.toString(a));
     }
 
-    public static void task3() {
-        //Умножить на два элементы массива меньшие шести
+    public static void printArray(int[] a) {
+        for (int i = 0; i < a.length; i++)
+            System.out.printf("%3d", a[i]);
+    }
 
+    //Умножить на два элементы массива меньшие шести
+    public static void task3() {
         int[] a = new int[] {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
 
         System.out.print("Исходный массив:\t");
-        System.out.println(Arrays.toString(a));
+        //System.out.println(Arrays.toString(a));
+        printArray(a);
+        System.out.println();
 
         for (int i = 0; i < a.length; i++)
             if (a[i] < 6)
                 a[i] = a[i] * 2;
 
         System.out.print("Измененный массив:\t");
-        System.out.println(Arrays.toString(a));
+        //System.out.println(Arrays.toString(a));
+        printArray(a);
+        System.out.println();
     }
 
+    // Заполнить диагонали матрицы единицами
     public static void task4() {
-        // Заполнить диагонали матрицы единицами
-
         final int ROW_COUNT = 5;
 
         int[][] a = new int[ROW_COUNT][ROW_COUNT];
@@ -64,9 +74,8 @@ public class HomeWork_2 {
             System.out.println(Arrays.toString(a[i]));
     }
 
+    // Поиск минимального и максимального элемента
     public static void task5() {
-        // Поиск минимального и максимального элемента
-
         final int ELEMENT_COUNT = 15;
         final int MAX_RANDOM_VALUE = 50;
 
@@ -117,21 +126,24 @@ public class HomeWork_2 {
 
     public static void task6() {
         int[] a1 = new int[] {6, 1, 2, 7, 2};
-        System.out.println("Массив: ");
+        System.out.print("Массив: ");
         System.out.println(Arrays.toString(a1));
         System.out.println("Граница с одинаковой суммой элементов левой и правой части существует: " + borderExist(a1));
+        System.out.println();
 
         int[] a2 = new int[] {1, 1, 5};
-        System.out.println("Массив: ");
+        System.out.print("Массив: ");
         System.out.println(Arrays.toString(a2));
         System.out.println("Граница с одинаковой суммой элементов левой и правой части существует: " + borderExist(a2));
+        System.out.println();
 
         int[] a3 = new int[] {1, 4, 5, 2, 2, 3, 3};
-        System.out.println("Массив: ");
+        System.out.print("Массив: ");
         System.out.println(Arrays.toString(a3));
         System.out.println("Граница с одинаковой суммой элементов левой и правой части существует: " + borderExist(a3));
     }
 
+    // Циклический сдвиг массива
     public static int[] shiftArray(int[] a, int shift) {
         int size = a.length;
 
@@ -173,24 +185,29 @@ public class HomeWork_2 {
         System.out.print("Исходный массив: ");
         System.out.println(Arrays.toString(a));
 
-        System.out.println("Сдвиг: 3");
+        System.out.println("\nСдвиг: 3");
+        System.out.print("Массив после сдвига: ");
         System.out.println(Arrays.toString(shiftArray(a, 3)));
 
         a = new int[] {1, 2, 3, 4, 5, 6, 7, 8};
-        System.out.println("Сдвиг: -3");
+        System.out.println("\nСдвиг: -3");
+        System.out.print("Массив после сдвига: ");
         System.out.println(Arrays.toString(shiftArray(a, -3)));
 
         a = new int[] {1, 2, 3, 4, 5, 6, 7, 8};
-        System.out.println("Сдвиг: 10");
+        System.out.println("\nСдвиг: 10");
+        System.out.print("Массив после сдвига: ");
         System.out.println(Arrays.toString(shiftArray(a, 10)));
 
         a = new int[] {1, 2, 3, 4, 5, 6, 7, 8};
-        System.out.println("Сдвиг: -10");
+        System.out.println("\nСдвиг: -10");
+        System.out.print("Массив после сдвига: ");
         System.out.println(Arrays.toString(shiftArray(a, -10)));
     }
 
     public static void main(String[] args) {
         System.out.println("Java 1 Homework 2");
+        System.out.println();
 
         //task 1
         System.out.println("Задание 1");
