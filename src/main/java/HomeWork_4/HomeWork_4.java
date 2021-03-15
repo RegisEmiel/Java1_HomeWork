@@ -1,19 +1,18 @@
 package HomeWork_4;
 
-import java.util.Random;
 import java.util.Scanner;
 
 public class HomeWork_4 {
     public static int SIZE = 3;
-    public static int DOTS_TO_WIN = 3;
+    //public static int DOTS_TO_WIN = 3;
     public static final char DOT_EMPTY = '•';
     public static final char DOT_X = 'X';
     public static final char DOT_O = 'O';
     public static char[][] map;
     public static Scanner sc = new Scanner(System.in);
-    public static Random rand = new Random();
+    //public static Random rand = new Random();
 
-    public static boolean checkWin(char symb) {
+    /*public static boolean checkWin(char symb) {
         if(map[0][0] == symb && map[0][1] == symb && map[0][2] == symb) return true;
         if(map[1][0] == symb && map[1][1] == symb && map[1][2] == symb) return true;
         if (map[2][0] == symb && map[2][1] == symb && map[2][2] == symb) return true;
@@ -23,7 +22,7 @@ public class HomeWork_4 {
         if (map[0][0] == symb && map[1][1] == symb && map[2][2] == symb) return true;
         if (map[2][0] == symb && map[1][1] == symb && map[0][2] == symb) return true;
         return false;
-    }
+    }*/
 
     public static boolean checkWin2(char symbol) {
         int mainDiagonalWin = 0;
@@ -63,7 +62,7 @@ public class HomeWork_4 {
         return true;
     }
 
-    public static void aiTurn() {
+    /*public static void aiTurn() {
         int x, y;
         do {
             x = rand.nextInt(SIZE);
@@ -71,12 +70,12 @@ public class HomeWork_4 {
         } while (!isCellValid(x, y));
         System.out.println("Компьютер походил в точку " + (x + 1) + " " + (y + 1));
         map[y][x] = DOT_O;
-    }
+    }*/
 
     public static void aiTurn2() {
         int x = -1;
         int y = -1;
-        boolean ai_win = false;
+
         boolean flagWin = false;
 
         for (int j = 0; j < SIZE; j++)
@@ -122,10 +121,8 @@ public class HomeWork_4 {
     public static boolean isCellValid(int x, int y) {
         if (x < 0 || x >= SIZE || y < 0 || y >= SIZE)
             return false;
-        if (map[y][x] == DOT_EMPTY)
-            return true;
 
-        return false;
+        return map[y][x] == DOT_EMPTY;
     }
 
     public static void initMap() {
