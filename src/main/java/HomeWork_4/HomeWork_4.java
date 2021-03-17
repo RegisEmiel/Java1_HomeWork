@@ -140,9 +140,9 @@ public class HomeWork_4 {
 
         boolean flagWin = false;
 
-        for (int j = 0; j < SIZE; j++)
+        for (int j = 0; !flagWin && (j < SIZE); j++)
         {
-            for (int i = 0; i < SIZE; i++)
+            for (int i = 0; !flagWin && (i < SIZE); i++)
             {
                 if (isCellValid(j, i))
                 {
@@ -156,14 +156,8 @@ public class HomeWork_4 {
                         flagWin = true;
 
                     map[i][j] = tmp;
-
-                    if (flagWin)
-                        break;
                 }
             }
-
-            if (flagWin)
-                break;
         }
 
         System.out.println("Компьютер походил в точку " + (y + 1) + " " + (x + 1));
