@@ -1,7 +1,7 @@
 package HomeWork_5;
 
 public class Employee {
-    private String FIO; //Вамилия, имя, отчество
+    private String FIO; //Фамилия, имя, отчество
     private String Position; // Должность
     private String Email; // Адрес электронной почты
     private String Phone; // Телефон
@@ -71,7 +71,7 @@ public class Employee {
         Age = age;
     }
 
-    // Переопределение функции toString
+    // Переопределение функции toString для вывода данных объекта
     @Override
     public String toString() {
         return "Employee{" +
