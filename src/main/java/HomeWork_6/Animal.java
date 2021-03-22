@@ -5,8 +5,8 @@ public class Animal {
     protected String color;
     protected int age;
 
-    protected int limitationForRun;
-    protected int limitationForSwim;
+    protected int limitationForRun = -1;
+    protected int limitationForSwim = -1;
 
     public static int Count;
 
@@ -16,6 +16,7 @@ public class Animal {
 
     public Animal(String name, String color, int age) {
         this();
+
         this.name = name;
         this.color = color;
         this.age = age;
@@ -49,7 +50,7 @@ public class Animal {
         if (limitationForRun != 0 && distance <= limitationForRun)
             System.out.println(name + " пробежал " + distance + "м.");
         else
-            System.out.println("Столько не пробежать!");
+            System.out.println(name + " столько не пробежать!");
     }
 
     protected void swim(int distance) {
@@ -57,6 +58,6 @@ public class Animal {
         if (limitationForSwim != 0 && distance <= limitationForSwim)
             System.out.println(name + " проплыл " + distance + "м.");
         else
-            System.out.println("Столько не проплыть!");
+            System.out.println(name + " столько не проплыть!");
     }
 }
