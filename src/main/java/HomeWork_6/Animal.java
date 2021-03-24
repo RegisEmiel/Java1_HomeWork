@@ -1,12 +1,13 @@
 package HomeWork_6;
 
-public class Animal {
+public abstract class Animal {
     protected String name;
     protected String color;
     protected int age;
 
-    protected int limitationForRun = -1;
-    protected int limitationForSwim = -1;
+    // Ограничения будем задавать в конструкторах классов-наследников
+    protected int limitationForRun;
+    protected int limitationForSwim;
 
     public static int Count;
 
@@ -16,6 +17,9 @@ public class Animal {
 
     public Animal(String name, String color, int age) {
         this();
+        // Можно конструктор без параметров не вызывать, а тут же увеличить счетчик животных, но не в конструкторе
+        // без параметра
+        // Count++;
 
         this.name = name;
         this.color = color;
@@ -46,18 +50,18 @@ public class Animal {
         this.age = age;
     }
 
+    // Можно и нужно сделать один методод на всех животных, так как поведение и для кошек, и для собак одинаковое
     protected void run(int distance) {
-        if (limitationForRun != 0 && distance <= limitationForRun)
+        // Ограничение на бег будет взято из объекта класса-наследника, а создать объект абстракного класса нельзя
+        if (distance <= limitationForRun)
             System.out.println(name + " пробежал " + distance + "м.");
         else
-            System.out.println(name + " столько не пробежать!");
+            System.out.println(name + " не пробежит " + distance + "м!");
     }
 
+    // Можно переопределить во всех наследниках, так как поведение в наследниках разное, а можно поступить, как в
+    // предыдущем случае, и переопределить только для кошек
     protected void swim(int distance) {
-
-        if (limitationForSwim != 0 && distance <= limitationForSwim)
-            System.out.println(name + " проплыл " + distance + "м.");
-        else
-            System.out.println(name + " столько не проплыть!");
+        System.out.println(name + " проплыл " + distance + "м.");
     }
 }

@@ -8,9 +8,11 @@ public class HomeWork_6 {
 
         barsikCat.run(100);
         barsikCat.swim(25);
-        dymkaCat.run(70);
+        dymkaCat.run(201);
         sharikDog.run(150);
+        sharikDog.run(501);
         sharikDog.swim(5);
+        sharikDog.swim(11);
 
         System.out.println("Животных: " + Animal.Count);
         System.out.println("Кошек: " + Cat.Count);
