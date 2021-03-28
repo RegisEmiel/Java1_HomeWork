@@ -8,7 +8,22 @@ public class Plate {
     }
 
     public void decreaseFood(int n) {
-        food -= n;
+        if (food >= n)
+            food -= n;
+    }
+
+    public boolean decreaseFood_Task_3_4(int n) {
+        if (food >= n) {
+            food -= n;
+
+            return true;
+        }
+
+        return false;
+    }
+
+    public void add(int n) {
+        food += n;
     }
 
     public void info() {
