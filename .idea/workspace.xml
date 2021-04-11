@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e65d2b2a-2b71-4bfd-9547-a044e58f99da" name="Default Changelist" comment="" />
+    <list default="true" id="e65d2b2a-2b71-4bfd-9547-a044e58f99da" name="Default Changelist" comment="Create classes commit">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HomeWork_7/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeWork_7/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HomeWork_7/HomeWork_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeWork_7/HomeWork_7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HomeWork_7/Plate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomeWork_7/Plate.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +26,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="HomeWork_6_Branch" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -27,6 +36,11 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="RegisEmiel" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="Java1_HomeWork" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -42,9 +56,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java1_HomeWork2" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.HomeWork_7">
     <configuration name="HomeWork_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HomeWork_2.HomeWork_2" />
       <module name="Java1_HomeWork" />
@@ -58,9 +76,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HomeWork_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeWork_4.HomeWork_4" />
+      <module name="Java1_HomeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeWork_4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeWork_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeWork_5.HomeWork_5" />
+      <module name="Java1_HomeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeWork_5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeWork_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeWork_6.HomeWork_6" />
+      <module name="Java1_HomeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeWork_6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeWork_7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeWork_7.HomeWork_7" />
+      <module name="Java1_HomeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeWork_7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HomeWork_7" />
         <item itemvalue="Application.HomeWork_2" />
+        <item itemvalue="Application.HomeWork_6" />
+        <item itemvalue="Application.HomeWork_5" />
+        <item itemvalue="Application.HomeWork_4" />
       </list>
     </recent_temporary>
   </component>
@@ -122,7 +196,112 @@
       <option name="project" value="LOCAL" />
       <updated>1615316683922</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Homework 4 init commit">
+      <created>1615828959258</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1615828959258</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Base games code commit">
+      <created>1615830121100</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1615830121100</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Task 2, 4 complete commit">
+      <created>1615840487420</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1615840487420</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Comment deprecated function commit">
+      <created>1615840906965</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1615840906965</updated>
+    </task>
+    <task id="LOCAL-00012" summary="HomeWork 4 complete commit">
+      <created>1616010945268</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1616010945268</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Delete break in aiTurn_Task4 commit">
+      <created>1616011792182</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1616011792182</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Create HomeWork 5 tasks commit">
+      <created>1616236799391</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1616236799391</updated>
+    </task>
+    <task id="LOCAL-00015" summary="HomeWork 5 complete commit">
+      <created>1616237285495</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1616237285495</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Correction comments commit">
+      <created>1616237487048</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1616237487048</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Homework 6 init commit">
+      <created>1616239814360</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1616239814360</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Create classes commit">
+      <created>1616243814715</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1616243814715</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Task 1, 2, 3, 4 complete commit">
+      <created>1616436071647</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1616436071647</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Correct tasks commit">
+      <created>1616437435191</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1616437435191</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Changed classes organization and added comments commit">
+      <created>1616607690026</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1616607690026</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Create classes commit">
+      <created>1616957140363</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1616957140363</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -133,6 +312,20 @@
     <MESSAGE value="Task 3, 4, 5 complete commit" />
     <MESSAGE value="Task 6 complete commit" />
     <MESSAGE value="Task 7 complete commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 7 complete commit" />
+    <MESSAGE value="Homework 4 init commit" />
+    <MESSAGE value="Base games code commit" />
+    <MESSAGE value="Task 2, 4 complete commit" />
+    <MESSAGE value="Comment deprecated function commit" />
+    <MESSAGE value="HomeWork 4 complete commit" />
+    <MESSAGE value="Delete break in aiTurn_Task4 commit" />
+    <MESSAGE value="Create HomeWork 5 tasks commit" />
+    <MESSAGE value="HomeWork 5 complete commit" />
+    <MESSAGE value="Correction comments commit" />
+    <MESSAGE value="Homework 6 init commit" />
+    <MESSAGE value="Task 1, 2, 3, 4 complete commit" />
+    <MESSAGE value="Correct tasks commit" />
+    <MESSAGE value="Changed classes organization and added comments commit" />
+    <MESSAGE value="Create classes commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create classes commit" />
   </component>
 </project>
